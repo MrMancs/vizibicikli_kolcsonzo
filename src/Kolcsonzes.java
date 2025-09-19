@@ -22,7 +22,7 @@ public class Kolcsonzes {
         this.jarmu = jarmu;
     }
 
-    public int getElvitelOra() {
+    public int getElvitelOra(int i) {
         return elvitelOra;
     }
 
@@ -30,7 +30,7 @@ public class Kolcsonzes {
         this.elvitelOra = elvitelOra;
     }
 
-    public int getElvitelPerc() {
+    public int getElvitelPerc(int i) {
         return elvitelPerc;
     }
 
@@ -38,7 +38,7 @@ public class Kolcsonzes {
         this.elvitelPerc = elvitelPerc;
     }
 
-    public int getVisszaOra() {
+    public int getVisszaOra(int i) {
         return visszaOra;
     }
 
@@ -46,7 +46,7 @@ public class Kolcsonzes {
         this.visszaOra = visszaOra;
     }
 
-    public int getVisszaPerc() {
+    public int getVisszaPerc(int i) {
         return visszaPerc;
     }
 
