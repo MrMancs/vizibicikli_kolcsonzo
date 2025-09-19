@@ -69,5 +69,13 @@ public class Kolcsonzes {
 
     public Kolcsonzes(String fileLine) {
         // TODO - parse read line
+
+        String[] split = fileLine.split(";");
+        setNev(split[0]);
+        setJarmu(split[1].charAt(0));
+        setElvitelOra(Integer.parseInt(split[2]));
+        setElvitelPerc(Integer.parseInt(split[3]));
+        setVisszaOra(Integer.parseInt(split[4]));
+        setVisszaPerc(Integer.parseInt(split[5]));
     }
 }
